@@ -9,8 +9,7 @@ import joblib
 import warnings
 warnings.filterwarnings('ignore')
 os.makedirs("models", exist_ok=True)
-#testing branch
-i = 1
+
 
 class BurnoutModel:
     def __init__(self):
